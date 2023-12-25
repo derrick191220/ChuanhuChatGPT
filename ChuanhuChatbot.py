@@ -800,7 +800,7 @@ if __name__ == "__main__":
         allowed_paths=["history", "web_assets"],
         server_name=server_name,
         server_port=server_port,
-        share=true,
+        share=True,
         auth=auth_from_conf if authflag else None,
         favicon_path="./web_assets/favicon.ico",
         inbrowser=not dockerflag,  # 禁止在docker下开启inbrowser
